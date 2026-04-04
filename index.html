@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>MoodScape</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>🌍 MoodScape</h1>
+<p class="tagline">A living wall of human emotions</p>
+
+<div class="buttons">
+    <button onclick="addMood('Happy')">😊</button>
+    <button onclick="addMood('Sad')">😢</button>
+    <button onclick="addMood('Angry')">😡</button>
+    <button onclick="addMood('Calm')">😌</button>
+</div>
+
+<input type="text" id="reason" placeholder="Why do you feel this?">
+
+<div id="quote"></div>
+
+<h3>📊 Mood Stats</h3>
+<div id="stats"></div>
+
+<div id="moodContainer"></div>
+
+<script src="script.js"></script>
+</body>
+</html>
